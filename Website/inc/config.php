@@ -1,10 +1,10 @@
 <?php
     $dbserv             = "127.0.0.1"; 	     // SQL server IP address
-	$dbname             = "web"; 	        // SQL server database name (don't change)
+    $dbname             = "web"; 	    // SQL server database name (don't change)
     $dbname_acc         = "gmg_account";   // SQL server database name (don't change)
     $dbname_trickster   = "trickster";    // SQL server database name (don't change)
-	$dbuser             = "sa"; 		 // SQL server username (don't change)
-	$dbpass             = "(password)"; // SQL server user password
+    $dbuser             = "sa"; 	 // SQL server username (don't change)
+    $dbpass             = "(password)"; // SQL server user password
     //===============================================================================================================
     $discord_link    = "";
     $download_link_1 = "Client";
