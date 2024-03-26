@@ -3,7 +3,8 @@
 
 # First Steps
 1. Create a new Database named "web";
-1. Run the .sql files located in the "Queryes" folder;
+2. Run the .sql files located in the "Queryes" folder;
+3. Edit the "inc/config.php" file to your specifications;  
 
 # Web Database Table Functions
 ### Basic Functions
