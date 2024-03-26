@@ -1,0 +1,110 @@
+.download-container {
+  width: 1024px;
+  height: 100%;
+  float: left;
+  display: block;
+  margin-top: 25px;
+}
+
+.download-container .title {
+  width: 100%;
+  height: 20px;
+  color: rgba(92,99,225,1);
+  font-weight: 700;
+  display: block;
+}
+
+.download-container .title .name {
+  font-size: 18pt;
+  font-weight: 900;
+  width: 100%;
+  float: left;
+}
+
+.download-container .content {
+  width: 100%;
+  text-align: center;
+}
+
+.separator {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 1px;
+  border-bottom: 0px;
+  border-style: dashed;
+  border-color: rgb(120, 126, 241);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.separator-2 {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.download-text {
+  width: 100%;
+  color: rgba(92,99,225,1);
+  font-weight: 500;
+  font-size: 10pt;
+  text-align: left;
+  float: left;
+}
+
+.yellow-text {
+  color: rgba(238,122,21,1);
+}
+
+.download-button {
+  font-style: normal;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 48.8%;
+  height: 80px;
+  font-weight: 700;
+  float: left;
+  z-index: 999;
+}
+
+.first-button {
+  background-color: #4851d8 !important;
+  color: #fff;
+}
+
+.first-button:hover {
+  background-color: #2f38b4 !important;
+  color: #fff;
+}
+
+.second-button {
+  background-color: #ffa24b !important;
+  color: #fff;
+}
+
+.second-button:hover {
+background-color: #dd7514 !important;
+color: #fff;
+}
+
+@media only screen and (max-width: 1023px) {
+  .download-container {
+      width: 98%;
+      height: auto;
+  }
+  .download-button {
+    width: 95%;
+  }
+}

@@ -1,0 +1,423 @@
+.userarea-container {
+  width: 1024px;
+  height: 100%;
+  float: left;
+  display: block;
+  margin-top: 25px;
+}
+
+.userarea-container .title {
+  width: 100%;
+  height: 20px;
+  color: rgba(92,99,225,1);
+  font-weight: 700;
+  display: block;
+}
+
+.userarea-container .title .name {
+  font-size: 18pt;
+  font-weight: 900;
+  width: 74%;
+  float: left;
+}
+
+.userarea-container .title .link {
+  width: 25%;
+  height: auto;
+  text-align: center;
+  float: right;
+}
+
+.userarea-container .title .link .userarea_category {
+  border: none;
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgb(120, 126, 241) 1000%, rgb(93, 101, 240) 0%);
+  cursor: pointer;
+  font-size: 8pt;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  min-width: 70px;
+  max-width: 112px;
+  height: 30px;
+}
+
+.userarea-container .title .link .userarea_category:hover {
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgba(92,99,225,1) 0%, rgba(64,71,194,1) 100%);
+}
+
+.userarea-container .title .link .userarea_active {
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgba(247,178,51,1) 0%, rgba(238,122,21,1) 100%);
+}
+
+.userarea-container .content {
+  width: 100%;
+}
+
+.separator {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 1px;
+  border-bottom: 0px;
+  border-style: dashed;
+  border-color: rgb(120, 126, 241);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 90%;
+  height: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #919eec;
+  border-radius: 5px;
+  color: #3138ad;
+}
+
+.user_form input[type="text"]:focus,
+.user_form input[type="password"]:focus {
+  outline: none;
+  border-color: #ff8418;
+}
+
+.user_form  input[type="submit"] {
+  font-style: normal;
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgb(247, 187, 77) 0%, rgb(251, 146, 54) 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.user_form  input[type="submit"]:hover {
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgba(247,178,51,1) 0%, rgba(238,122,21,1) 100%);
+}
+
+.separator-2 {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+.content-square {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.content-square-right {
+  float: right !important;
+}
+
+.content-square .text-1 {
+  width: 100%;
+  height: 20px;
+  color: rgba(238,122,21,1);
+  font-weight: 700;
+  display: block;
+  font-size: 16pt;
+}
+
+.content-square .text-2 {
+  width: 100%;
+  height: 20px;
+  color: rgba(238,122,21,1);
+  font-weight: 700;
+  display: block;
+  font-size: 16pt;
+  text-align: right;
+}
+
+.content-square .text-3 {
+  width: 100%;
+  color: rgba(92,99,225,1);
+  font-weight: 500;
+  font-size: 10pt;
+  text-align: right;
+  float: right;
+}
+
+.content-square .text-4 {
+  width: 100%;
+  color: rgba(92,99,225,1);
+  font-weight: 500;
+  font-size: 10pt;
+  text-align: left;
+  float: left;
+}
+
+.content-square .text-5 {
+  width: 100%;
+  color: rgba(92,99,225,1);
+  font-weight: 500;
+  font-size: 10pt;
+  text-align: right;
+  float: right;
+}
+
+.yellow-text {
+  color: rgba(238,122,21,1);
+}
+
+.subacc-square {
+  margin-top: 20px;
+  display: block;
+  border: 1px solid;
+  border-color: #919eec;
+  border-radius: 5px;
+  width: 100%;
+  height: 181px;
+}
+
+.subacc-unit {
+  display: block;
+  font-size: 10pt;
+  font-weight: 500;
+  display: inline-table;
+  height: 30px;
+  width: 100%;
+  color: rgb(106, 112, 233);
+}
+
+.subacc-unit .inside {
+  margin: 0px auto 0 auto;
+  width: 95%;
+  height:40px;
+  line-height: 35px;
+  padding-top: 2px;
+}
+
+.subacc-unit .inside .acclogin{
+  font-size: 10pt;
+  font-weight: 700;
+  width: 45%;
+  height: 30px;
+  float: left;
+  text-align: left;
+}
+
+.subacc-unit .inside .fix {
+  border: none;
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgb(120, 126, 241) 1000%, rgb(93, 101, 240) 0%);
+  cursor: pointer;
+  font-size: 8pt;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  min-width: 15%;
+  max-width: 40%;
+  height: 30px;
+  margin-top: 4px;
+  margin-left: 5px;
+  float: right;
+  text-align: center;
+}
+
+.subacc-unit .inside .fix:hover {
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgba(92,99,225,1) 0%, rgba(64,71,194,1) 100%);
+}
+
+.subacc-unit:nth-child(even) {
+  background-color:rgb(231, 233, 255);
+}
+
+#square-scroll {
+  height: 181px;
+  overflow: hidden;
+}
+
+#addacc-form {
+  margin-top: 47px;
+}
+
+#addacc-form input[type="text"] {
+  width: 60%;
+  height: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #919eec;
+  border-radius: 5px;
+  color: #3138ad;
+  float: right;
+}
+
+#addacc-form input[type="text"]:focus {
+  outline: none;
+  border-color: #ff8418;
+}
+
+#addacc-form button {
+  font-style: normal;
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgb(120, 126, 241) 1000%, rgb(93, 101, 240) 0%);
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 80%;
+  height: 60px;
+  font-weight: 900;
+  float: right;
+}
+
+#addacc-form button:hover {
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgba(92,99,225,1) 0%, rgba(64,71,194,1) 100%);
+}
+
+#change-form, #fixsingle-form {
+  margin-top: 25px;
+}
+
+#change-form input[type="password"] {
+  width: 60%;
+  height: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #919eec;
+  border-radius: 5px;
+  color: #3138ad;
+  float: left;
+}
+
+#change-form input[type="password"]:focus {
+  outline: none;
+  border-color: #ff8418;
+}
+
+#change-form button {
+  font-style: normal;
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgb(120, 126, 241) 1000%, rgb(93, 101, 240) 0%);
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 80%;
+  height: 60px;
+  font-weight: 900;
+  float: left;
+}
+
+#change-form button:hover {
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgba(92,99,225,1) 0%, rgba(64,71,194,1) 100%);
+}
+
+#fixsingle-form button {
+  font-style: normal;
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgb(120, 126, 241) 1000%, rgb(93, 101, 240) 0%);
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 80%;
+  height: 60px;
+  font-weight: 900;
+  float: right;
+}
+
+#fixsingle-form button:hover {
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgba(92,99,225,1) 0%, rgba(64,71,194,1) 100%);
+}
+
+
+.grecaptcha-badge {
+  z-index:999;
+}
+
+@media only screen and (max-width: 1023px) {
+  .userarea-container {
+      width: 98%;
+      height: auto;
+  }
+  .userarea-container .title .name {
+    width: 40%;
+  }
+  .userarea-container .title .link {
+    width: 60%;
+    margin: 0px;
+  }
+  .content-square {
+    width: 100%;
+  }
+  .subacc-square {
+    width: 100%;
+  }
+  .subacc-unit {
+    clear: both;
+    width: 100%;
+  }
+  .subacc-unit .inside {
+    width: 95%;
+  }
+  .content-square-right {
+    margin-top: 50px;
+  }
+  #change-form, #fixsingle-form, #addacc-form  {
+    margin-top: 25px;
+  }
+  #addacc-form input[type="text"] {
+    width: 94%;
+  }
+  #addacc-form button {
+    width: 100%;
+  }
+  #change-form input[type="password"] {
+    width: 94%;
+  }
+  #change-form button {
+    width: 100%;
+  }
+  #fixsingle-form button {
+    width: 100%;
+  }
+}

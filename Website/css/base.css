@@ -1,0 +1,418 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-container {
+  width: 100%;
+  height: 400px;
+  margin: 80px auto 0 auto;
+  position: relative;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-box-shadow: inset 0px -20px 15px -9px rgba(0,0,0,0.4);
+  -moz-box-shadow: inset 0px -20px 15px -9px rgba(0,0,0,0.4);
+  box-shadow: inset 0px -20px 15px -9px rgba(0,0,0,0.4);
+}
+
+.bg-container .inside {
+  width: 1024px;
+  height: 400px;
+  margin: 0px auto 0 auto;
+  margin-top: -20px;
+  position: relative;
+  background-image: url("../images/char.png");
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu-btn {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  display: none;
+}
+
+.menu-btn img {
+  height:100%;
+  width:30px;
+}
+
+.logo img {
+  height:60px;
+  width:100%;
+}
+
+#container {
+  width: 1024px;
+  margin: 40px auto 0 auto;
+  min-height: 165px;
+  position: relative;
+}
+
+.menu {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 11pt;
+  width: 100%;
+  height: 80px;
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgba(92,99,225,1) 0%, rgba(64,71,194,1) 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  -webkit-box-shadow: 0px 17px 15px -9px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 17px 15px -9px rgba(0,0,0,0.4);
+  box-shadow: 0px 17px 15px -9px rgba(0,0,0,0.4);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+  height:80px;
+  line-height:60px;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  background-color: #3138ad;
+}
+
+.menu ul li .active {
+  background-color: #3138ad;
+}
+
+.button-holder {
+  height: 20px;
+  display: block;
+}
+
+.admin-button {
+  font-style: normal;
+  background: rgb(247, 51, 51);
+  background: linear-gradient(180deg, rgb(247, 77, 77) 0%, rgb(251, 54, 54) 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  z-index: 999;
+}
+
+.admin-button:hover, .admin-button.active {
+  background: rgb(247, 51, 51);
+  background: linear-gradient(180deg, rgb(247, 51, 51) 0%, rgb(238, 21, 21) 100%);
+}
+
+.login-button {
+  font-style: normal;
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgb(247, 187, 77) 0%, rgb(251, 146, 54) 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login-button:hover, .login-button.active {
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgba(247,178,51,1) 0%, rgba(238,122,21,1) 100%);
+}
+
+.login-form {
+  position: absolute;
+  top: 85px;
+  right: 0;
+  background: rgb(255,255,251);
+  background: linear-gradient(180deg, rgba(255,255,251,1) 0%, rgba(255,255,251,1) 50%, rgba(194,202,251,1) 100%);
+  color: #fff;
+  padding: 20px;
+  margin-right: 15px;
+  display: none;
+  width: 230px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #919eec;
+}
+
+.login-form .text-1 {
+  font-size: 10pt;
+  font-weight: 500;
+  color: rgba(92,99,225,1);
+}
+
+.login-form .text-2 {
+  font-size: 20pt;
+  font-weight: 900;
+  color: rgba(92,99,225,1);
+}
+
+.login-form .text-3 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: rgba(238,122,21,1);
+}
+
+.login-form a {
+text-decoration: none;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 90%;
+  height: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #919eec;
+  border-radius: 5px;
+  color: #3138ad;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+  outline: none;
+  border-color: #ff8418;
+}
+
+.login-form input[type="submit"] {
+  font-style: normal;
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgb(247, 187, 77) 0%, rgb(251, 146, 54) 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.login-form input[type="submit"]:hover {
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgba(247,178,51,1) 0%, rgba(238,122,21,1) 100%);
+}
+
+.login-form .user_area_btn {
+  font-style: normal;
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgba(92,99,225,1) 0%, rgba(64,71,194,1) 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 81%;
+}
+
+.login-form .user_area_btn:hover {
+  background: rgb(68, 74, 190);
+  background: linear-gradient(180deg, rgb(73, 79, 199) 0%, rgb(45, 51, 165) 100%);
+}
+
+.login-form .logout_btn {
+  font-style: normal;
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgb(247, 187, 77) 0%, rgb(251, 146, 54) 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 81%;
+}
+
+.login-form .logout_btn:hover {
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgba(247,178,51,1) 0%, rgba(238,122,21,1) 100%);
+}
+
+.footer-container {
+  clear: both;
+  width: 100%;
+  height: 200px;
+  margin: 80px auto 0 auto;
+  position: relative;
+  background-image: url("../images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-box-shadow: inset 0px 15px 16px -8px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px 15px 16px -8px rgba(0,0,0,0.5);
+  box-shadow: inset 0px 15px 16px -8px rgba(0,0,0,0.5);
+}
+
+.footer-container .inside {
+  width: 1024px;
+  height: 100px;
+  margin: 0px auto 0 auto;
+  position: relative;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.footer-container .inside .text-1 {
+  font-size: 18pt;
+  font-weight: 900;
+  color: rgb(86, 93, 217);
+}
+
+.footer-container .inside .text-2 {
+  font-size: 10pt;
+  font-weight: 500;
+  color: #303030;
+}
+
+@media only screen and (max-width: 1023px) {
+  .menu .logo img {
+    height: 40px;
+  }
+  .menu .login-button {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  .admin-button {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  .bg-container {
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+    box-shadow: inset 0px -10px 10px -5px rgba(0,0,0,0.4);
+  }
+  .bg-container .inside {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+  #container {
+    width: 100%;
+    min-height: 100%;
+    margin: 20px auto 0 auto;
+  }
+  .login-form {
+    top: 55px;
+    right: 5%;
+    padding: 15px;
+  }
+  .login-form input[type="submit"] {
+    width: 100%;
+  }
+  .footer-container {
+    height: auto;
+    margin-top: 20px;
+  }
+  .footer-container .inside {
+    width:90%;
+    padding-top: 50px;
+  }
+  .menu {
+    z-index: 9999;
+    height: 60px;
+    flex-direction: column;
+  }
+  .menu ul {
+    margin-top: 60px;
+    display: none;
+    width: 100%;
+    left: 0px;
+  }
+  .menu ul li a {
+    display: block;
+    padding: 0;
+  }
+  .menu.active ul li a:hover {
+    background-color: #3138ad;
+    width: 100%;
+    height: 40px;
+  }
+  .menu.active ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6066d9;
+  }
+  .menu ul li {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+  }
+  .logo {
+    top: 10px;
+  }
+  .login {
+    position:absolute;
+    right: 0px;
+    top: 15px;
+  }
+  .menu-btn {
+    display: block;
+  }
+}

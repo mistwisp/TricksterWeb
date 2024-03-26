@@ -1,0 +1,115 @@
+.register-container {
+  width: 1024px;
+  height: 100%;
+  float: left;
+  display: block;
+  margin-top: 25px;
+}
+
+.register-container .title {
+  width: 100%;
+  height: 20px;
+  color: rgba(92,99,225,1);
+  font-weight: 700;
+  display: block;
+}
+
+.register-container .title .name {
+  font-size: 18pt;
+  font-weight: 900;
+  width: 100%;
+  float: left;
+}
+
+.register-container .content {
+  width: 100%;
+  text-align: center;
+}
+
+#register-form {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#register-form input[type="text"],
+#register-form input[type="password"] {
+  width: 35%;
+  height: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #919eec;
+  border-radius: 5px;
+  color: #3138ad;
+  float: center;
+}
+
+#register-form input[type="text"]:focus,
+#register-form input[type="password"]:focus {
+  outline: none;
+  border-color: #ff8418;
+}
+
+#register-form button {
+  font-style: normal;
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgb(247, 187, 77) 0%, rgb(251, 146, 54) 100%);
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  width: 30%;
+  font-weight: 900;
+}
+
+#register-form button:hover {
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgba(247,178,51,1) 0%, rgba(238,122,21,1) 100%);
+}
+
+
+.separator {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 1px;
+  border-bottom: 0px;
+  border-style: dashed;
+  border-color: rgb(120, 126, 241);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.separator-2 {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.grecaptcha-badge {
+  z-index:999;
+}
+
+@media only screen and (max-width: 1023px) {
+  .register-container {
+      width: 98%;
+      height: auto;
+  }
+  #register-form input[type="text"],
+  #register-form input[type="password"] {
+    width: 90%;
+  }
+  #register-form button {
+    width: 95%;
+  }
+}

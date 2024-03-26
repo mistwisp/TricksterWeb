@@ -1,0 +1,209 @@
+.rank-container {
+  width: 1024px;
+  height: 100%;
+  float: left;
+  display: block;
+  margin-top: 25px;
+}
+
+.rank-container .title {
+  width: 100%;
+  height: 20px;
+  color: rgba(92,99,225,1);
+  font-weight: 700;
+  display: block;
+}
+
+.rank-container .title .name {
+  font-size: 18pt;
+  font-weight: 900;
+  width: 60%;
+  float: left;
+}
+
+.rank-container .title .link {
+  width: 22%;
+  height: 10px;
+  text-align: center;
+  float: right;
+}
+
+.rank-container .title .link .rank_category {
+  border: none;
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgb(120, 126, 241) 1000%, rgb(93, 101, 240) 0%);
+  cursor: pointer;
+  font-size: 8pt;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+}
+
+.rank-container .title .link .rank_category:hover {
+  background: rgb(92,99,225);
+  background: linear-gradient(180deg, rgba(92,99,225,1) 0%, rgba(64,71,194,1) 100%);
+}
+
+.rank-container .title .link .rank_active {
+  background: rgb(247,178,51);
+  background: linear-gradient(180deg, rgba(247,178,51,1) 0%, rgba(238,122,21,1) 100%);
+}
+
+.rank-container .title .link button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.rank-container table {
+  width: 100%;
+}
+
+.rank-container table thead tr th {
+  height: 40px;
+  font-size: 11pt;
+  font-weight: 700;
+  color: #fff;
+  background-color: rgba(64,71,194,1);
+}
+
+.rank-container table thead tr th:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.rank-container table thead tr th:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.rank-container table tbody tr {
+  height:30px;
+  font-size: 11pt;
+  font-weight: 500;
+  color: rgb(106, 112, 233);
+  text-align: center;
+}
+
+.rank-container table tbody tr:nth-child(even) {
+  background-color: rgb(231, 233, 255);
+  color: rgb(106, 112, 233);
+}
+
+.rank-container table tbody tr td img {
+  margin-top: 3px;
+}
+
+.level-extra {
+  float: none;
+  width: 100%;
+  height: auto;
+  margin: 0px auto 0 auto;
+}
+
+.level-extra .inside {
+  width: 100%;
+  text-align: center;
+}
+
+.level-extra img{
+  display: inline-block;
+  width: 26px;
+  height: auto;
+  margin-left:15px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.level-extra img:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.level-extra .active{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.boss-extra {
+  width: 100%;
+  height: auto;
+}
+
+.boss-extra .inside {
+  width: 100%;
+  text-align: center;
+}
+
+.boss-extra img{
+  display: inline-block;
+  width: auto;
+  min-height: 110px;
+  max-height: 150px;
+  margin-left:10px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.boss-extra img:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.boss-extra .active{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.separator {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 1px;
+  border-bottom: 0px;
+  border-style: dashed;
+  border-color: rgb(120, 126, 241);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.separator-2 {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+.separator-3 {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 1px;
+  border-bottom: 0px;
+  border-style: dashed;
+  border-color: rgb(120, 126, 241);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  float:left;
+}
+
+@media only screen and (max-width: 1023px) {
+  .rank-container {
+      width: 98%;
+      height: auto;
+  }
+  .rank-container .title .name {
+    width: 40%;
+  }
+  .rank-container .title .link {
+    width: 54%;
+    margin: 0px;
+  }
+  .boss-extra img{
+    min-height: 80px;
+    max-height: 100px;
+    margin-left:5px;
+  }
+}
