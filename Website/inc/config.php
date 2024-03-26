@@ -6,10 +6,11 @@
     $dbuser             = "sa"; 	 // SQL server username (don't change)
     $dbpass             = "(password)"; // SQL server user password
     //===============================================================================================================
-    $discord_link    = "";
-    $download_link_1 = "Client";
-    $download_link_2 = "Launcher";
+    $discord_link    = "Discord Server Invite Link";
+    $download_link_1 = "Client Download Lnk";
+    $download_link_2 = "Launcher Download Link";
     //===============================================================================================================
+    //Te reCaptcha keys below works for 127.0.0.1!
     $captcha_site_key   = "6LeBX5EpAAAAAApZeSaf26AKPF88JqIAE-ueRkai";  // reCaptcha site key (create your own)
     $captcha_secret_key = "6LeBX5EpAAAAALMoeiI0RaLnBz1WpfYrtWuZCE8M"; // reCaptcha secret key (create your own)
     //===============================================================================================================
