@@ -15,5 +15,5 @@
     $captcha_secret_key = "6LeBX5EpAAAAALMoeiI0RaLnBz1WpfYrtWuZCE8M"; // reCaptcha secret key (create your own)
     //===============================================================================================================
     $use_master_account = TRUE; 
-    // Enable = One Master Account + multiple Game Accounts linked to it
-    // Disable = Only one Game Account
+    // TRUE = One Master Account + multiple Game Accounts linked to it
+    // FALSE = Only one Game Account
