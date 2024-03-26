@@ -14,4 +14,6 @@
     $captcha_site_key   = "6LeBX5EpAAAAAApZeSaf26AKPF88JqIAE-ueRkai";  // reCaptcha site key (create your own)
     $captcha_secret_key = "6LeBX5EpAAAAALMoeiI0RaLnBz1WpfYrtWuZCE8M"; // reCaptcha secret key (create your own)
     //===============================================================================================================
-    $use_master_account = TRUE; // Enable or Disable the user of a master account + several game accounts liked to it
+    $use_master_account = TRUE; 
+    // Enable = One Master Account + multiple Game Accounts linked to it
+    // Disable = Only one Game Account
