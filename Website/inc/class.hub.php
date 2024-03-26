@@ -13,10 +13,10 @@
 	$dbinfo_acc 	  = [ "dbserv" => $dbserv, "dbname" => $dbname_acc, 	  "dbuser" => $dbuser, "dbpass" => $dbpass ];
 	$dbinfo_trickster = [ "dbserv" => $dbserv, "dbname" => $dbname_trickster, "dbuser" => $dbuser, "dbpass" => $dbpass ];
 	//====================================================================================================================
-	$siteclass 		 = new Site( $dbinfo );
-	$rankclass 		 = new Ranking ( $dbinfo );
-	$newsclass 		 = new News ( $dbinfo );
-	$userclass 		 = new User( $dbinfo );
-	$adminclass 	 = new Admin( $dbinfo );
-	$dbconnacc 		 = new Connection( $dbinfo_acc );
+	$siteclass 	 = new Site( $dbinfo );
+	$rankclass 	 = new Ranking ( $dbinfo );
+	$newsclass 	 = new News ( $dbinfo );
+	$userclass 	 = new User( $dbinfo );
+	$adminclass	 = new Admin( $dbinfo );
+	$dbconnacc 	 = new Connection( $dbinfo_acc );
 	$dbconntrickster = new Connection( $dbinfo_trickster );
