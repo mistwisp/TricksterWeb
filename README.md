@@ -1,5 +1,5 @@
 # Trickster Web
-![](https://forum.ragezone.com/attachments/sar27by-png.257629/)
+![]([https://forum.ragezone.com/attachments/sar27by-png.257629/](https://forum.ragezone.com/attachments/sar27by-webp.257629/))
 
 # First Steps
 1. Create a new Database named "web";
