@@ -1,5 +1,5 @@
 # Trickster Web
-![]([https://i.imgur.com/ibjXBXH.png])
+![preview](https://i.imgur.com/ibjXBXH.png)
 
 # First Steps
 1. Create a new Database named "web";
